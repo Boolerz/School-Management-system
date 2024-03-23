@@ -178,7 +178,7 @@ def admin_dashboard_view(request):
 
 
 
-#for teacher sectionnnnnnnn by adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#for teacher section by adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
@@ -290,7 +290,7 @@ def admin_view_teacher_salary_view(request):
 
 
 
-#for student by adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#for student by adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
@@ -404,7 +404,7 @@ def admin_view_student_fee_view(request):
 
 
 
-#attendance related viewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+#attendance related viewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
 def admin_attendance_view(request):
@@ -460,7 +460,7 @@ def admin_view_attendance_view(request,cl):
 
 
 
-#fee related view by adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#fee related view by adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
 def admin_fee_view(request):
@@ -480,7 +480,7 @@ def admin_view_fee_view(request,cl):
 
 
 
-#notice related viewsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+#notice related viewsssssssssssssssssssssssssssssssssssssssssssssss
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
 def admin_notice_view(request):
@@ -501,7 +501,7 @@ def admin_notice_view(request):
 
 
 
-#for TEACHER  LOGIN    SECTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+#for TEACHER  LOGIN    SECTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 @login_required(login_url='teacherlogin')
 @user_passes_test(is_teacher)
 def teacher_dashboard_view(request):
